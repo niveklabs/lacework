@@ -7,8 +7,6 @@ module "lacework_alert_channel_aws_cloudwatch" {
   event_bus_arn = null
   # group_issues_by - (optional) is a type of string
   group_issues_by = null
-  # min_alert_severity - (optional) is a type of number
-  min_alert_severity = null
   # name - (required) is a type of string
   name = null
 }

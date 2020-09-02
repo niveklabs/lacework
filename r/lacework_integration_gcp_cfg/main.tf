@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    lacework = ">= 0.2.1"
+    lacework = ">= 0.2.2"
   }
 }
 
