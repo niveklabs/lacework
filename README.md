@@ -3,7 +3,7 @@
 [embedmd]:# (lacework.tf)
 ```tf
 provider "lacework" {
-  version = "0.2.0"
+  version = "0.2.1"
 
   # account - (optional) is a type of string
   account = null
