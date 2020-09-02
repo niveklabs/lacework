@@ -3,6 +3,12 @@ variable "api_token" {
   type        = string
 }
 
+variable "custom_template_file" {
+  description = "(optional)"
+  type        = string
+  default     = null
+}
+
 variable "enabled" {
   description = "(optional)"
   type        = bool

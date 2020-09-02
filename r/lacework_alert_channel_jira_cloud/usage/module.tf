@@ -3,6 +3,8 @@ module "lacework_alert_channel_jira_cloud" {
 
   # api_token - (required) is a type of string
   api_token = null
+  # custom_template_file - (optional) is a type of string
+  custom_template_file = null
   # enabled - (optional) is a type of bool
   enabled = null
   # group_issues_by - (optional) is a type of string

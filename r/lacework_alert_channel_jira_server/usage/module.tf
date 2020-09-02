@@ -1,6 +1,8 @@
 module "lacework_alert_channel_jira_server" {
   source = "./modules/lacework/r/lacework_alert_channel_jira_server"
 
+  # custom_template_file - (optional) is a type of string
+  custom_template_file = null
   # enabled - (optional) is a type of bool
   enabled = null
   # group_issues_by - (optional) is a type of string
